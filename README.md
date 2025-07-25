@@ -1,5 +1,8 @@
-# duljina_komunikacijske_jedinice
+# Communication unit length
 
-NAPONENA: Ukoliko želite ovaj program koristiti za sebe, u programu u varijablu path morate upisati vlastitu putanju do mape gdje se nalaze .cha datoteke.
+## How to use?
+First, you need to download this folder by going to the green button `<> CODE` and press `Download ZIP`. Then, you need to unzip it on your computer. After that, open `communication_unit_length` in any text editor (preinstalled notepad on Windows is enough) and in the line `path = r"ENTER YOUR PATH HERE, INSTEAD OF THIS TEXT"` between quotation marks ( " " ) make sure you put the path to the folder with `.cha` data (e.g. `C:\Users\User\Desktop\my_foler` if the folder is on your Desktop). You can copy the path by opening the folder and clicking on the bar at the top where a similar path will be selected.
 
-Program radi tako da za svaku .cha datoteku vrati najdužu komunikacijsku jedinicu koju je dijete izgovorilo
+After you've successfully found and put your own path, in line `if line.startswith("*CHI:"):` feel free to replace `*CHI:` with what you need to analyse in your own project or thesis.
+
+When all of that is done, just run your programm and the resulting data will pop up, called `results.txt`
