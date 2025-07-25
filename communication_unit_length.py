@@ -16,7 +16,7 @@ with open('results.txt', 'w', encoding='utf-8') as results:
                 longest = ""
                 max_words = 0
                 for line in text:
-                    # feel free to replace *CHI: with any tag you need for your own research
+                    # feel free to replace *CHI: with any tag you need for your own research/thesis
                     if line.startswith("*CHI:"):
                         unit = line[5:].strip()
                         comm_units.append(unit)
